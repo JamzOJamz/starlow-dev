@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = 'NDc2MTI5NDA2Mjg1MzgxNjQ0.DkpmFw.tcCTNWVG7gJSXEqaXncUdLfY0kQ'
+const TOKEN = 'token_goes_here'
 
 bot.on('message', function(message){
     if(message.content == 's!hello Starlow')
